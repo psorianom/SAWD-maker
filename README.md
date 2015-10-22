@@ -2,7 +2,7 @@
 
 The Syntactically Annotated Wikipedia Dump (SAWD) tool is a Java implementation used to create a syntactic parse from a set of folders containing the Wikipedia raw text. This text can be obtained by using G. Attardi WikiExtractor Python script. The parse is for English currently (we are in process of parsing other languages). It uses the CoreNLP  suite of tools.
 
-The input to this program is the folder where the output of [WikiExtractor](https://github.com/attardi/wikiextractor is located. Ususally it is a number of folders named AA, AB, AC, etc. with clean Wikipedia text inside (clean means no tables, no images, no markup, etc.).
+The input to this program is the folder where the output of [WikiExtractor](https://github.com/attardi/wikiextractor) is located. Ususally it is a number of folders named `AA`, `AB`, `AC`, etc. with clean Wikipedia text inside (clean means no tables, no images, no markup, etc.).
 
 ## Dependencies:
 
